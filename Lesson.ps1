@@ -35,12 +35,12 @@ function Start-Lesson($LessonId)
             if ($Item.ContainsKey("M")) {
                 ##Message
                 
-                Display-Message -msg $Item.'M' -pause $true
+                Display-Message -Message $Item.'M' -pause $true
                 $Completed = $true
             } else {
                 
                 ##Question
-                Display-Message -msg $Item.'Q'
+                Display-Message -Message $Item.'Q'
 
                 Do {
                     Write-Host "PS> " -NoNewline -ForegroundColor White
@@ -50,7 +50,8 @@ function Start-Lesson($LessonId)
                 if (-not $Item.ContainsKey("Invoke") -or $Item.'Invoke' -eq $true) 
                 {  
                     #$ExecutionContext.InvokeCommand.ExpandString($c)
-                    Invoke-Expression $UserInput 
+                    try {  Invoke-Expression $UserInput  }
+                    catch { Debug-Message "Error evaluating user input" }
                 }
 
                 #Answer
