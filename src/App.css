@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.Piano-whitekey:hover {
+  fill: #61dafb !important
+}
+
+.Piano-blackkey:hover {
+  fill: #61dafb !important
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
