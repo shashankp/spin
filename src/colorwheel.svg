@@ -1,44 +1,94 @@
-<svg  version="1.0" xmlns="http://www.w3.org/2000/svg" >
+    
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <path id="arc0" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#FB01F9"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(-105)" />
 
-<!-- 
-     Copyright (c)  2005 Lauri Kaila.
-     Permission is granted to copy, distribute and/or modify this document
-     under the terms of the GNU Free Documentation License, Version 1.2
-     or any later version published by the Free Software Foundation;
-     with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
-     A copy of the license is included in the section entitled "GNU
-     Free Documentation License".
-     
-     
-     
-     Intented to create a keyboard where key widths are
-     accurately in position. 
-     
-     See http://www.mathpages.com/home/kmath043.htm
-     for the math.
-     
-     This keyboard has following properties (x=octave width).
-     1. All white keys have equal width in front (W=x/7).
-     2. All black keys have equal width (B=x/12).
-     3. The narrow part of white keys C, D and E is W - B*2/3
-     4. The narrow part of white keys F, G, A, and B is W - B*3/4
-     
--->
+        <path id="arc1" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#FD0178"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(-75)" />
 
-<!-- White keys  -->
-<rect style="fill:white;stroke:black" x=  "0" y="0" width="23" height="120" />
-<rect style="fill:white;stroke:black" x= "23" y="0" width="23" height="120" />
-<rect style="fill:white;stroke:black" x= "46" y="0" width="23" height="120" />
-<rect style="fill:white;stroke:black" x= "69" y="0" width="23" height="120" />
-<rect style="fill:white;stroke:black" x= "92" y="0" width="23" height="120" />
-<rect style="fill:white;stroke:black" x="115" y="0" width="23" height="120" />
-<rect style="fill:white;stroke:black" x="138" y="0" width="23" height="120" />
+        <path id="arc2" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#FA0600"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(-45)" />
 
-<!-- Black keys (overlap with the white keys) -->
-<rect style="fill:black;stroke:black" x="14.33333" y="0" width="13" height="80" />
-<rect style="fill:black;stroke:black" x="41.66666" y="0" width="13" height="80" />
-<rect style="fill:black;stroke:black" x="82.25" y="0" width="13" height="80" />
-<rect style="fill:black;stroke:black" x="108.25" y="0" width="13" height="80" />
-<rect style="fill:black;stroke:black" x="134.75" y="0" width="13" height="80" />
+        <path id="arc3" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#FC7F01"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(-15)" />
 
+        <path id="arc4" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#FDFD06"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(15)" />
+
+        <path id="arc5" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#A5EC04"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(45)" />
+
+        <path id="arc6" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#01E300"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(75)" />
+
+        <path id="arc7" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#01E9E7"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(105)" />
+
+        <path id="arc8" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#037AF7"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(135)" />
+ 
+        <path id="arc9" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#0001FB"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(165)" />
+
+        <path id="arc10" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#7E00F9"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(195)" />
+
+        <path id="arc11" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
+            fill="#BA04FA"
+            fill-opacity="0.3"
+            transform="translate(200,200) rotate(225)" />
+
+    </g>
+    <style>
+        #arc0 {            
+        }
+        #arc1 {            
+        }
+        #arc2 {            
+        }
+        #arc3 {            
+        }
+        #arc4 {            
+        }
+        #arc5 {            
+        }
+        #arc6 {            
+        }
+        #arc7 {            
+        }
+        #arc8 {            
+        }
+        #arc9 {            
+        }
+        #arc10 {            
+        }
+        #arc11 {            
+        }
+  </style>
+    <script>
+      document.getElementById('arc').style.display = 'block';
+  </script>
 </svg>
