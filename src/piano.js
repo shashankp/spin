@@ -1,51 +1,106 @@
-import { WebMidi, Note } from 'webmidi';
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 export default function Piano({ onStateChange }) {
 
   const [isPlaying, setIsPlaying] = useState(false);
+  const [pressedKey, setPressedKey] = useState(null);
+
   const audioRef = useRef(null);
+  const audioContextRef = useRef(null);
+  const oscillatorRef = useRef(null);
 
-  WebMidi
-    .enable()
-    .then(onMidiEnabled)
-    .catch(err => alert(err));
+  const noteFrequencies = {
+    'C': 261.63,
+    'C#': 277.18, 'Db': 277.18,
+    'D': 293.66,
+    'D#': 311.13, 'Eb': 311.13,
+    'E': 329.63,
+    'F': 349.23,
+    'F#': 369.99, 'Gb': 369.99,
+    'G': 392.00,
+    'G#': 415.30, 'Ab': 415.30,
+    'A': 440.00,
+    'A#': 466.16, 'Bb': 466.16,
+    'B': 493.88
+  };
 
-  function onMidiEnabled() {
-    // WebMidi.inputs.forEach(input => console.log('input ', input.name));
-    // WebMidi.outputs.forEach(output => console.log('output ', output.name));
-    let output = WebMidi.outputs[0];
-    const note = new Note("A4");
-    output.playNote(note);
+  const notesByKeys = {
+    'z': 'C',
+    's': 'C#',
+    'x': 'D',
+    'd': 'D#',
+    'c': 'E',
+    'v': 'F',
+    'g': 'F#',
+    'b': 'G',
+    'h': 'G#',
+    'n': 'A',
+    'j': 'A#',
+    'm': 'B'
+  };
+
+  const playNoteWithMp3 = (key) => {
+
   }
+
+  function playNoteWithWebAudio(noteName) {
+    if (!noteFrequencies.hasOwnProperty(noteName)) {
+      console.error('Invalid note name');
+      return;
+    }
+
+    if (!audioContextRef.current) {
+      audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)();
+    }
+
+    oscillatorRef.current = audioContextRef.current.createOscillator();
+    oscillatorRef.current.frequency.setValueAtTime(noteFrequencies[noteName], audioContextRef.current.currentTime);
+    oscillatorRef.current.connect(audioContextRef.current.destination);
+    oscillatorRef.current.start();
+    oscillatorRef.current.stop(audioContextRef.current.currentTime + 0.5); // Adjust the duration as needed
+  }
+
+  const handleKeyDown = (event) => {
+    if (notesByKeys.hasOwnProperty(event.key)) {
+      onStateChange(notesByKeys[event.key]);
+      setPressedKey(event.key);
+      playNoteWithWebAudio(notesByKeys[event.key]);
+    }
+  };
+
+  const handleKeyUp = () => {
+    setPressedKey(null);
+  };
+
+  useEffect(() => {
+    // Add event listeners when the component mounts
+    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keyup', handleKeyUp);
+
+    // Cleanup function to remove event listeners when the component unmounts
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('keyup', handleKeyUp);
+    };
+  }, []);
+  
 
   const play = (key) => {
     console.log('played ', key);
     onStateChange(key);
-
-    if (audioRef.current) {
-      if (isPlaying) {
-        audioRef.current.pause();
-      } else {
-        audioRef.current.play();
-      }
-    }
-    //setIsPlaying(!isPlaying);
+    playNoteWithWebAudio(key);
   };
 
   const stop = (key) => {
     console.log('stopping ', key);
     onStateChange('');
-    // let output = WebMidi.outputs[0];
-    // let channel = output.channels[1];
-    // channel.playNote(key);
   };
 
   return <div className='' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-    <audio id="scale" ref={audioRef} >
+    {/* <audio id="scale" ref={audioRef} >
       <source src={process.env.PUBLIC_URL + '/scale.mp3'} type="audio/mp3" />
       Your browser does not support the audio element.
-    </audio>
+    </audio> */}
 
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="161" >
       <rect className="Piano-whitekey" style={{ fill: 'white', stroke: 'black' }} x="0" y="0" width="23" height="120" onMouseDown={() => play('C')} onMouseUp={() => stop('C')} />
