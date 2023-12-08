@@ -21,7 +21,6 @@ function App() {
     .then(onMIDISuccess, onMIDIFailure);
 
   function onMIDISuccess(midiAccess) {
-    console.log('MIDI accessible');
   }
 
   function onMIDIFailure(error) {
