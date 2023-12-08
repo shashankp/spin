@@ -1,4 +1,3 @@
-    
 <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
     <g>
         <path id="arc0" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
@@ -45,7 +44,7 @@
             fill="#037AF7"
             fill-opacity="0.3"
             transform="translate(200,200) rotate(135)" />
- 
+
         <path id="arc9" d="M 0 0 L 100 0 A 100 100 0 0 1 87 50 L 0 0"
             fill="#0001FB"
             fill-opacity="0.3"
@@ -63,32 +62,31 @@
 
     </g>
     <style>
-        #arc0 {            
+        #arc0 {
         }
-        #arc1 {            
+        #arc1 {
         }
-        #arc2 {            
+        #arc2 {
         }
-        #arc3 {            
+        #arc3 {
         }
-        #arc4 {            
+        #arc4 {
         }
-        #arc5 {            
+        #arc5 {
         }
-        #arc6 {            
+        #arc6 {
         }
-        #arc7 {            
+        #arc7 {
         }
-        #arc8 {            
+        #arc8 {
         }
-        #arc9 {            
+        #arc9 {
         }
-        #arc10 {            
+        #arc10 {
         }
-        #arc11 {            
+        #arc11 {
         }
-  </style>
+    </style>
     <script>
-      document.getElementById('arc').style.display = 'block';
-  </script>
+    </script>
 </svg>
