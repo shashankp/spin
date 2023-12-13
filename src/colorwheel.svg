@@ -1,68 +1,325 @@
-<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
     <g>
-            <path id="arc0" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#FB01F9"
-                
-                transform="translate(200,200) rotate(-105)" />
-    
-            <path id="arc1" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#FD0178"
-                
-                transform="translate(200,200) rotate(-75)" />
-    
-            <path id="arc2" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#FA0600"
-                
-                transform="translate(200,200) rotate(-45)" />
-    
-            <path id="arc3" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#FC7F01"
-                
-                transform="translate(200,200) rotate(-15)" />
-    
-            <path id="arc4" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#FDFD06"
-                
-                transform="translate(200,200) rotate(15)" />
-    
-            <path id="arc5" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#A5EC04"
-                
-                transform="translate(200,200) rotate(45)" />
-    
-            <path id="arc6" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#01E300"
-                
-                transform="translate(200,200) rotate(75)" />
-    
-            <path id="arc7" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#01E9E7"
-                
-                transform="translate(200,200) rotate(105)" />
-    
-            <path id="arc8" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#037AF7"
-                
-                transform="translate(200,200) rotate(135)" />
-     
-            <path id="arc9" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#0001FB"
-                
-                transform="translate(200,200) rotate(165)" />
-    
-            <path id="arc10" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#7E00F9"
-                
-                transform="translate(200,200) rotate(195)" />
-    
-            <path id="arc11" d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
-                fill="#BA04FA"
-                
-                transform="translate(200,200) rotate(225)" />
+        <g name="pink">
+            <path id="arc-c0-l0"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill="#ffb0fe" stroke="#ffb0fe"
+                transform="translate(500,500) rotate(-105)" />
 
+            <path id="arc-c1-l0"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill="#fd7ffe" stroke="#fd7ffe"
+                transform="translate(500,500) rotate(-105)" />
+
+            <path id="arc-c2-l0"
+                d="M 150 0  A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill="#f958fa" stroke="#f958fa"
+                transform="translate(500,500) rotate(-105)" />
+
+            <path id="arc-c3-l0"
+                d="M 200 0  A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill="#fb01fc" stroke="#fb01fc"
+                transform="translate(500,500) rotate(-105)" />
+
+            <path id="arc-c4-l0"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill="#b501b5" stroke="#b501b5"
+                transform="translate(500,500) rotate(-105)" />
+
+            <path id="arc-c5-l0"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill="#650165" stroke="#650165"
+                transform="translate(500,500) rotate(-105)" />
+
+            <path id="arc-c6-l0"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill="#330133" stroke="#330133"
+                transform="translate(500,500) rotate(-105)" />
+        </g>
+
+        <g name="crimson">
+            <path id="arc-c0-l1"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill="#feb2d5" stroke="#feb2d5"
+                transform="translate(500,500) rotate(-75)" />
+
+            <path id="arc-c1-l1"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill="#ff7fba" stroke="#ff7fba"
+                transform="translate(500,500) rotate(-75)" />
+
+            <path id="arc-c2-l1"
+                d="M 150 0  A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill="#fe4c9e" stroke="#fe4c9e"
+                transform="translate(500,500) rotate(-75)" />
+
+            <path id="arc-c3-l1"
+                d="M 200 0  A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill="#fd0178" stroke="#fd0178"
+                transform="translate(500,500) rotate(-75)" />
+
+            <path id="arc-c4-l1"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill="#b50157" stroke="#b50157"
+                transform="translate(500,500) rotate(-75)" />
+
+            <path id="arc-c5-l1"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill="#640330" stroke="#640330"
+                transform="translate(500,500) rotate(-75)" />
+
+            <path id="arc-c6-l1"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill="#320019" stroke="#320019"
+                transform="translate(500,500) rotate(-75)" />
+        </g>
+
+        <g name="red">
+            <path id="arc-c0-l2"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill="#fbb1ad" stroke="#fbb1ad"
+                transform="translate(500,500) rotate(-45)" />
+
+            <path id="arc-c1-l2"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill="#fd807f" stroke="#fd807f"
+                transform="translate(500,500) rotate(-45)" />
+
+            <path id="arc-c2-l2"
+                d="M 150 0  A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill="#fd504f" stroke="#fd504f"
+                transform="translate(500,500) rotate(-45)" />
+
+            <path id="arc-c3-l2"
+                d="M 200 0  A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill="#fa0502" stroke="#fa0502"
+                transform="translate(500,500) rotate(-45)" />
+
+            <path id="arc-c4-l2"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill="#b60500" stroke="#b60500"
+                transform="translate(500,500) rotate(-45)" />
+
+            <path id="arc-c5-l2"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill="#660201" stroke="#660201"
+                transform="translate(500,500) rotate(-45)" />
+
+            <path id="arc-c6-l2"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill="#340101" stroke="#340101"
+                transform="translate(500,500) rotate(-45)" />
+        </g>
+
+        <g name="orange">
+            <path id="arc-c6-l3"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill='#331a00' stroke='#331a00' transform='translate(500,500) rotate(-15)' />
+            <path id="arc-c5-l3"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill='#653300' stroke='#653300' transform='translate(500,500) rotate(-15)' />
+            <path id="arc-c4-l3"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill='#b75b00' stroke='#b75b00' transform='translate(500,500) rotate(-15)' />
+            <path id="arc-c3-l3"
+                d="M 200 0 A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill='#fc7f01' stroke='#fc7f01' transform='translate(500,500) rotate(-15)' />
+            <path id="arc-c2-l3"
+                d="M 150 0 A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill='#fea44a' stroke='#fea44a' transform='translate(500,500) rotate(-15)' />
+            <path id="arc-c1-l3"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill='#fcbe80' stroke='#fcbe80' transform='translate(500,500) rotate(-15)' />
+            <path id="arc-c0-l3"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill='#fdd8b1' stroke='#fdd8b1' transform='translate(500,500) rotate(-15)' />
+        </g>
+        <g name='yellow'>
+            <path id="arc-c6-l4"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill='#2f3100' stroke='#2f3100' transform='translate(500,500) rotate(15)' />
+            <path id="arc-c5-l4"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill='#616301' stroke='#616301' transform='translate(500,500) rotate(15)' />
+            <path id="arc-c4-l4"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill='#afb002' stroke='#afb002' transform='translate(500,500) rotate(15)' />
+            <path id="arc-c3-l4"
+                d="M 200 0 A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill='#fafa06' stroke='#fafa06' transform='translate(500,500) rotate(15)' />
+            <path id="arc-c2-l4"
+                d="M 150 0 A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill='#fefe4c' stroke='#fefe4c' transform='translate(500,500) rotate(15)' />
+            <path id="arc-c1-l4"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill='#fcfe80' stroke='#fcfe80' transform='translate(500,500) rotate(15)' />
+            <path id="arc-c0-l4"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill='#ffffb1' stroke='#ffffb1' transform='translate(500,500) rotate(15)' />
+        </g>
+        <g name='light-green'>
+            <path id="arc-c6-l5"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill='#1d2a00' stroke='#1d2a00' transform='translate(500,500) rotate(45)' />
+            <path id="arc-c5-l5"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill='#3c5802' stroke='#3c5802' transform='translate(500,500) rotate(45)' />
+            <path id="arc-c4-l5"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill='#6ea002' stroke='#6ea002' transform='translate(500,500) rotate(45)' />
+            <path id="arc-c3-l5"
+                d="M 200 0 A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill='#a3ea00' stroke='#a3ea00' transform='translate(500,500) rotate(45)' />
+            <path id="arc-c2-l5"
+                d="M 150 0 A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill='#bff446' stroke='#bff446' transform='translate(500,500) rotate(45)' />
+            <path id="arc-c1-l5"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill='#d7fe7c' stroke='#d7fe7c' transform='translate(500,500) rotate(45)' />
+            <path id="arc-c0-l5"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill='#e5feb2' stroke='#e5feb2' transform='translate(500,500) rotate(45)' />
+        </g>
+        <g name='green'>
+            <path id="arc-c6-l6"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill='#002800' stroke='#002800' transform='translate(500,500) rotate(75)' />
+            <path id="arc-c5-l6"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill='#005200' stroke='#005200' transform='translate(500,500) rotate(75)' />
+            <path id="arc-c4-l6"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill='#019c00' stroke='#019c00' transform='translate(500,500) rotate(75)' />
+            <path id="arc-c3-l6"
+                d="M 200 0 A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill='#00e300' stroke='#00e300' transform='translate(500,500) rotate(75)' />
+            <path id="arc-c2-l6"
+                d="M 150 0 A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill='#4bee48' stroke='#4bee48' transform='translate(500,500) rotate(75)' />
+            <path id="arc-c1-l6"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill='#7ffb7c' stroke='#7ffb7c' transform='translate(500,500) rotate(75)' />
+            <path id="arc-c0-l6"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill='#b4feb0' stroke='#b4feb0' transform='translate(500,500) rotate(75)' />
+        </g>
+        <g name='cyan'>
+            <path id="arc-c6-l7"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill='#002827' stroke='#002827' transform='translate(500,500) rotate(105)' />
+            <path id="arc-c5-l7"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill='#005352' stroke='#005352' transform='translate(500,500) rotate(105)' />
+            <path id="arc-c4-l7"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill='#009e9e' stroke='#009e9e' transform='translate(500,500) rotate(105)' />
+            <path id="arc-c3-l7"
+                d="M 200 0 A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill='#03e5e5' stroke='#03e5e5' transform='translate(500,500) rotate(105)' />
+            <path id="arc-c2-l7"
+                d="M 150 0 A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill='#4cf5f3' stroke='#4cf5f3' transform='translate(500,500) rotate(105)' />
+            <path id="arc-c1-l7"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill='#7ffffa' stroke='#7ffffa' transform='translate(500,500) rotate(105)' />
+            <path id="arc-c0-l7"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill='#affffc' stroke='#affffc' transform='translate(500,500) rotate(105)' />
+        </g>
+        <g name='light-blue'>
+            <path id="arc-c6-l8"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill='#01172e' stroke='#01172e' transform='translate(500,500) rotate(135)' />
+            <path id="arc-c5-l8"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill='#022c5c' stroke='#022c5c' transform='translate(500,500) rotate(135)' />
+            <path id="arc-c4-l8"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill='#0053a9' stroke='#0053a9' transform='translate(500,500) rotate(135)' />
+            <path id="arc-c3-l8"
+                d="M 200 0 A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill='#0179f7' stroke='#0179f7' transform='translate(500,500) rotate(135)' />
+            <path id="arc-c2-l8"
+                d="M 150 0 A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill='#47a3fc' stroke='#47a3fc' transform='translate(500,500) rotate(135)' />
+            <path id="arc-c1-l8"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill='#7dbefc' stroke='#7dbefc' transform='translate(500,500) rotate(135)' />
+            <path id="arc-c0-l8"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill='#b1d6fe' stroke='#b1d6fe' transform='translate(500,500) rotate(135)' />
+        </g>
+        <g name='dark-blue'>
+            <path id="arc-c6-l9"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill='#010133' stroke='#010133' transform='translate(500,500) rotate(165)' />
+            <path id="arc-c5-l9"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill='#000062' stroke='#000062' transform='translate(500,500) rotate(165)' />
+            <path id="arc-c4-l9"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill='#0000b4' stroke='#0000b4' transform='translate(500,500) rotate(165)' />
+            <path id="arc-c3-l9"
+                d="M 200 0 A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill='#0001fb' stroke='#0001fb' transform='translate(500,500) rotate(165)' />
+            <path id="arc-c2-l9"
+                d="M 150 0 A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill='#4a4cfd' stroke='#4a4cfd' transform='translate(500,500) rotate(165)' />
+            <path id="arc-c1-l9"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill='#7a82fb' stroke='#7a82fb' transform='translate(500,500) rotate(165)' />
+            <path id="arc-c0-l9"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill='#acb3fb' stroke='#acb3fb' transform='translate(500,500) rotate(165)' />
+        </g>
+        <g name='purple'>
+            <path id="arc-c6-l10"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill='#180134' stroke='#180134' transform='translate(500,500) rotate(195)' />
+            <path id="arc-c5-l10"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill='#330162' stroke='#330162' transform='translate(500,500) rotate(195)' />
+            <path id="arc-c4-l10"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill='#5a01b4' stroke='#5a01b4' transform='translate(500,500) rotate(195)' />
+            <path id="arc-c3-l10"
+                d="M 200 0 A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill='#7f01fb' stroke='#7f01fb' transform='translate(500,500) rotate(195)' />
+            <path id="arc-c2-l10"
+                d="M 150 0 A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill='#a34dff' stroke='#a34dff' transform='translate(500,500) rotate(195)' />
+            <path id="arc-c1-l10"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill='#bd7ffd' stroke='#bd7ffd' transform='translate(500,500) rotate(195)' />
+            <path id="arc-c0-l10"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill='#d6b1ff' stroke='#d6b1ff' transform='translate(500,500) rotate(195)' />
+        </g>
+        <g name='light-purple'>
+            <path id="arc-c6-l11"
+                d="M 350 0 A 350 350 0 0 1 303 175 L 400 0 A 400 400 0 0 1 346 200 L 303 175 L 400 0"
+                fill='#250030' stroke='#250030' transform='translate(500,500) rotate(225)' />
+            <path id="arc-c5-l11"
+                d="M 300 0 A 300 300 0 0 1 260 150 L 350 0 A 350 350 0 0 1 303 175 L 260 150 L 350 0"
+                fill='#590076' stroke='#590076' transform='translate(500,500) rotate(225)' />
+            <path id="arc-c4-l11"
+                d="M 250 0 A 250 250 0 0 1 217 125 L 300 0 A 300 300 0 0 1 260 150 L 217 125 L 300 0"
+                fill='#8501b5' stroke='#8501b5' transform='translate(500,500) rotate(225)' />
+            <path id="arc-c3-l11"
+                d="M 200 0 A 200 200 0 0 1 173 100 L 250 0 A 250 250 0 0 1 217 125 L 173 100 L 250 0"
+                fill='#b902fe' stroke='#b902fe' transform='translate(500,500) rotate(225)' />
+            <path id="arc-c2-l11"
+                d="M 150 0 A 150 150 0 0 1 130 75 L 200 0 A 200 200 0 0 1 173 100 L 130 75 L 200 0"
+                fill='#cf4efb' stroke='#cf4efb' transform='translate(500,500) rotate(225)' />
+            <path id="arc-c1-l11"
+                d="M 100 0 A 100 100 0 0 1 87 50 L 150 0 A 150 150 0 0 1 130 75 L 87 50 L 150 0"
+                fill='#dd7ffd' stroke='#dd7ffd' transform='translate(500,500) rotate(225)' />
+            <path id="arc-c0-l11"
+                d="M 50 0 A 50 50 0 0 1 43 25 L 100 0 A 100 100 0 0 1 87 50 L 43 25 L 100 0"
+                fill='#e9affb' stroke='#e9affb' transform='translate(500,500) rotate(225)' />
+        </g>
     </g>
     <style>
-
     </style>
     <script>
     </script>
